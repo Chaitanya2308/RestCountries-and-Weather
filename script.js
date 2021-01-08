@@ -37,7 +37,7 @@ async function DisplayData()
             card_div.classList.add('card');
 
             let country=document.createElement('div');
-            country.classList.add('text-white','card-header','bg-dark');
+            country.classList.add('text-white','card-header','bg-dark','text-center');
             country.innerText=data[i]["name"];
 
             let flag=document.createElement('img');
